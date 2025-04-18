@@ -81,7 +81,7 @@ function App() {
 
   return (
     <div>
-      <header className="text-4xl text-black text-center py-4">TODO-MERN</header>
+      <header className="text-4xl text-black text-center py-4">📝TODO-MERN</header>
       <Search setSearch={setSearch} submitTask={submitTask} />
       <TaskPage
         tasks={filteredTasks}
